@@ -90,6 +90,10 @@ span {
     left: 40%;
     width: 100%;
 }
+a{
+    color: white;
+    font-size:0.8rem;
+}
 
 /* Small Devices (phones) */
 @media (max-width: 480px) {
