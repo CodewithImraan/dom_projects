@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <h1> BMI Calacualtor</h1>
+        <form action="">
+
+            <label for="">Height cm:</label>
+            <input class="height" type="text" placeholder="Enter Height"><br>
+            <label for="">Weight kg:</label>
+            <input class="weight" type="text" placeholder="Enter Weight"><br>
+            <input id="submit" type="submit" value="Calculate">
+            <div id="result"></div> 
+        </form>
+
+        <div class="note">  
+            <p id="underWeight"><Span>UnderWeight</Span> = Below 18.5</p>
+            <p  id="Healthy"><Span>Healthy</Span> = 18.5 to 24.9</p>
+            <p id="OverWeight"><Span>OverWeight</Span> = 25.0 to 29.9</p>
+            <p id="Obesity"> <Span>Obesity</Span> = 30.0 or above</p>
+        </div>
+
+        <p class="copyrights">
+            &copy; 2025 codewithimraan All rights reserved
+        </p>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
